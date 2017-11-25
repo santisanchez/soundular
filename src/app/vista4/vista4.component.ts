@@ -16,14 +16,14 @@ export class Vista4Component implements OnInit {
   ngOnInit() {
   }
 
-//   notify(){
-//     cordova.plugins.notification.local.schedule({
-//         title: 'Sync in progress',
-//         text: 'Copied 2 of 10 files',
-//         sound: '"../../../assets/sounds/button_1.mp3',
-//         vibrate: true
-//     });
-//   }
+  notify(){
+    cordova.plugins.notification.local.schedule({
+        title: 'Sync in progress',
+        text: 'Copied 2 of 10 files',
+        sound: '"../../../assets/sounds/button_1.mp3',
+        vibrate: true
+    });
+  }
   vibrate(){
     navigator.vibrate([200,100,300]); 
   }
