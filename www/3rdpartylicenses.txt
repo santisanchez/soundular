@@ -75,10 +75,6 @@ MIT
 MIT
 MIT
 
-@angular/animations@4.4.6
-MIT
-MIT
-
 @angular/platform-browser@4.4.6
 MIT
 MIT
