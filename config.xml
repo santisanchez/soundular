@@ -9,8 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-device" spec="~1.1.7" />
-    <plugin name="de.appplant.cordova.plugin.local-notification" spec="~1.0.3" />
+    <plugin name="cordova-plugin-device" spec="~1.1.7" />    
     <plugin name="cordova-plugin-vibration" spec="~2.1.6" />
-    <plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+    <plugin name="cordova-plugin-local-notifications-npm" version="~1.0.3" />
 </widget>
