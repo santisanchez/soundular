@@ -22,5 +22,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-local-notifications-npm": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-local-notifications-npm"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

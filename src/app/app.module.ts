@@ -8,6 +8,7 @@ import {RouterModule, Routes} from '@angular/router'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Vista4Component } from './vista4/vista4.component';
 import { VistaComponent } from './vista/vista.component';
+import { Vista5Component } from './vista5/vista5.component';
 
 const appRoutes: Routes = [
     {path: "", component: VistaComponent, data: { depth: 1}},
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     Vista2Component,
     Vista3Component,
     Vista4Component,
-    VistaComponent
+    VistaComponent,
+    Vista5Component
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
