@@ -12,4 +12,5 @@
     <plugin name="cordova-plugin-device" spec="~1.1.7" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.6" />
     <plugin name="cordova-plugin-media" spec="~4.0.0" />
+    <plugin name="cordova-plugin-file" spec="~5.0.0" />
 </widget>

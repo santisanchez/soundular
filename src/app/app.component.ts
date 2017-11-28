@@ -86,14 +86,7 @@ import { trigger, transition,query, group, style, animate} from '@angular/animat
 })
 export class AppComponent {
   title = 'app';
-  public audio;
-
-  public playSound(){
-    this.audio = new Audio();
-    this.audio.src = "../../../assets/sounds/button_1.mp3";
-    this.audio.load();
-    this.audio.play();
-  }
+  
   getDepth(outlet){
     return outlet.activatedRouteData['depth'];
   }
